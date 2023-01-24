@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logoAlura-mini.png" type="image/x-icon">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoalura" src="mimi-alura-challenge.png" alt="logo da  Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="texto-codificador" cols="30" rows="4" placeholder="Digite seu texto"></textarea>
+        </section>
+
+        <section>
+            <h6 class="informacao">
+                &#9888; Apenas letras minúsculas e sem acento</h6>
+        </section>
+        <section>
+            <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+        </section>
+
+        <section>
+            <textarea class="texto-descodificador" cols="30" rows="12"
+                placeholder="Nenhuma mensagem encontrada! &#128528"></textarea>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <a class="GitHub" href="https://github.com/fernanda-iha" target="_blank" rel="external"> <img
+                    src="mini-github.png" alt="Logo GithHub"></a>
+            <a class="LinkedIn" href="https://www.linkedin.com/in/fernanda-iha/" target="_blank" rel="external"> <img
+                    src="mini-linkedin.png" alt="Logo LinkedIn"></a>
+            <p class="rodape">© Copyright Fernanda Iha | 2023</p>
+        </div>
+        <script src="script.js"></script>
+    </footer>
+</body>
+
+</html>

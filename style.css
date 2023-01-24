@@ -1,0 +1,134 @@
+body {
+    background: #e5e5e5;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.logoalura {
+    position: absolute;
+    left: 520px;
+    right: 37.43px;
+    top: 1%;
+    bottom: 0%;
+}
+
+.texto-codificador {
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    left: 150px;
+    top: 100px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    background: #E5E5E5;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.texto-codificador::placeholder {
+    font-size: 20px;
+    color: #0A3871;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+
+.informacao {
+    font-size: 14px;
+    font-weight: bold;
+    color: #080808;
+    margin-left: 150px;
+    font-weight: bold;
+    margin-top: 425px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.btn-criptografar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 155px;
+}
+
+.btn-criptografar:hover {
+    background: #104c94;
+    border: 1px solid #104c94;
+}
+
+.btn-descriptografar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.btn-descriptografar:hover {
+    background: #104c94;
+    border: 1px solid #104c94;
+}
+
+.texto-descodificador {
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    left: 750px;
+    top: 100px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    background: #E5E5E5;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.texto-descodificador::placeholder {
+    font-size: 17px;
+    font-weight: bold;
+    color: #0A3871;
+    text-align: center;
+    width: 450px;
+    padding-top: 140px;
+}
+
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 880px;
+    margin-top: -50px;
+    position: absolute;
+    width: 200px;
+
+}
+
+.btn-copiar:hover {
+    background-color: #d4d5d6;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0 0 0;
+    font-weight: bold;
+}
